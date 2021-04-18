@@ -1,0 +1,93 @@
+<!Doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="stylesheets.css">
+        <script src="myscripts.js"></script>
+        <title>ChillZone | Happy</title>
+    </head>
+
+    <body>
+        <div class = "Logo">
+            <img src = "Logo.JPG" alt = "Logo, name with tree image" style="width: 100px;">
+        </div>
+        
+        <div class = "row">
+            <div class = "column">
+                <div class = "divide">
+                    <h2>Listen To Calming Sounds</h2>
+
+                    <p>Forest</p>
+                    <audio controls autoplay>
+                        <source src="Forest.mp3" type="audio/mpeg">
+                        Your browser does not support this sound.
+                    </audio>
+
+                    <p>Beach</p>
+                    <audio controls autoplay>
+                        <source src="Beach.mp3" type="audio/mpeg">
+                        Your browser does not support this sound.
+                    </audio>
+
+                    <p>Wind</p>
+                    <audio controls autoplay>
+                        <source src="Wind.mp3" type="audio/mpeg">
+                        Your browser does not support this sound.
+                    </audio>
+
+                    <p>Rain</p>
+                    <audio controls autoplay>
+                        <source src="Rain.mp3" type="audio/mpeg">
+                        Your browser does not support this sound.
+                    </audio>
+
+
+                </div>
+            </div>
+
+            <div class = "column1">
+                <div class = "divide">
+                    <h2>Watch this video to keep up your happy feeling!</h2>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/QJ16g5Ct9Bs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p style="color: black;">Scan for an AR Heart</p>
+                    <img src = "Heart AR.png" alt = "QR code" style = "width: 50px;">
+                </div>
+            </div>
+
+
+            <div class = "column">
+                <div class = "divide">
+                    <h2>Listen to this throw back playlist.</h2>
+                    <iframe src="https://open.spotify.com/embed/playlist/5r3dfWzTXMfiiO9rmzUCP9" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                </div>
+            </div>
+
+        </div>
+
+        <div class = "change">
+            <h3>Want to change your background? Click one of the images.</h3>
+            <input type="image" width = "200px" height = "200px" name = "sad" src = "sadimg.JPG" onclick="changesad()"/>
+            <input type="image" width = "200px" height = "200px" name = "happy" src = "happyimg.JPG" onclick="changehappy()"/>
+            <input type="image" width = "200px" height = "200px" name = "neutral" src = "neutralimg.JPG"  onclick="changeneutral()"/>
+            <input type="image" width = "200px" height = "200px" name = "neutral" src = "angryimg.JPG"  onclick="changeangry()"/>
+            <h3>Change Emotion</h3>
+            <a href = "angry.html"><button class = "angry">Angry</button></a>
+            <a href = "sad.html"><button class = "sad">Sad</button></a>
+            <a href = "neutral.html"><button class = "neutral">Neutral</button></a>
+           
+
+        </div>
+        
+
+        <style>
+            body{
+                background-image: url("https://media.giphy.com/media/13ZzYXkeIjcZy0/giphy.gif");
+                background-size: cover;
+                height: 100vh;
+                padding:0;
+                margin:0;
+            }
+        </style>
+
+    </body>
+
+</html>

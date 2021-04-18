@@ -1,0 +1,89 @@
+/*https://stackoverflow.com/questions/21590343/how-to-display-a-gif-fullscreen-for-a-webpage-background/21590382*/
+/*https://codepen.io/MattWindle/pen/perZRG*/
+
+.homepage{
+    color: blue;
+    text-align: center;
+}
+
+body{
+    text-align: center;
+    color: yellow;
+}
+
+.button{
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    
+}
+
+.Logo{
+    text-align: left;
+}
+.happy {
+    background-color: yellow;
+    width: 200px;
+    height: 50px;
+}
+
+.sad {
+    background-color: blue;
+    width: 200px;
+    height: 50px;
+}
+
+
+.angry {
+    background-color: red;
+    width: 200px;
+    height: 50px;
+}
+
+.neutral {
+    background-color: green;
+    width: 200px;
+    height: 50px;
+}
+
+     
+.column {
+    float: left;
+    width: 30%;
+    text-align: center;
+    font-family: Trebuchet MS;
+}
+
+.column1 {
+    float: left;
+    width: 40%;
+    text-align: center;
+    font-family: Trebuchet MS;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.divide{
+    padding: 2px;
+    margin: 2px;
+    font-family: Trebuchet MS;
+}
+
+h1, h3, p{
+    font-family: Trebuchet MS;
+}
+
+.change{
+    color: blue;
+}
