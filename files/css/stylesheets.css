@@ -64,8 +64,6 @@ ul {
     border-radius: 10px;
     font-weight: 700;
     font-size: 20px;
-    width: 6rem;
-    height: 1.8rem;
   }
 
     /* Cards Code */
@@ -146,8 +144,6 @@ ul {
 }
 
 body{
-    text-align: center;
-    color: yellow;
     font-family: 'Poppins', sans-serif;
 }
 
