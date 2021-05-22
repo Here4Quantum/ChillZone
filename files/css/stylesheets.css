@@ -1,14 +1,50 @@
 /*https://stackoverflow.com/questions/21590343/how-to-display-a-gif-fullscreen-for-a-webpage-background/21590382*/
 /*https://codepen.io/MattWindle/pen/perZRG*/
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+
+/* Navbar Code */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #062766;
+    text-align: center;
+    padding: 5px 14px;
+    text-decoration: none;
+  }
+  
+  
+  .banner {
+    background-color: #0155F7;
+    color: white;
+    border-radius: 10px;
+    font-weight: 700;
+    width: 5rem;
+    height: 1.5rem;
+  }
+
+
 .homepage{
-    color: blue;
+    color: black;
     text-align: center;
 }
 
 body{
     text-align: center;
     color: yellow;
+    font-family: 'Poppins', sans-serif;
 }
 
 .button{
@@ -58,14 +94,12 @@ body{
     float: left;
     width: 30%;
     text-align: center;
-    font-family: Trebuchet MS;
 }
 
 .column1 {
     float: left;
     width: 40%;
     text-align: center;
-    font-family: Trebuchet MS;
 }
 
 .row:after {
@@ -77,13 +111,11 @@ body{
 .divide{
     padding: 2px;
     margin: 2px;
-    font-family: Trebuchet MS;
 }
 
-h1, h3, p{
-    font-family: Trebuchet MS;
+h3{
+    font-weight: normal;
 }
-
 .change{
     color: blue;
 }
