@@ -1,0 +1,33 @@
+.section{
+    display: flex;
+    justify-content: space-around;
+}
+
+.content{
+    width: 48%;
+    text-align: center;
+}
+
+img{
+    max-width: 500px;
+    border:5px solid #0D2970;
+    border-radius: 5px;
+}
+
+.text{
+    width: 48%;
+    text-align: left;
+}
+
+.text p{
+    background: rgba(1, 85, 247, 0.13);
+    color: #062766;
+    font-size: 24px;
+line-height: 36px;
+padding: 10px;
+}
+
+.about{
+    margin-top: 3rem;
+    text-align: center !important;
+}
