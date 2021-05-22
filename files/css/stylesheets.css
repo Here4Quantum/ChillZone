@@ -35,10 +35,37 @@ ul {
     height: 1.5rem;
   }
 
+  .cards .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    width: 20%;
+    background-color: #f1f1f1;
+  }
+
+  .cards{
+      display: flex;
+      margin: auto;
+      justify-content: space-around;
+  }
+
+  .card .emoji{
+      font-size: 5rem;
+      margin: 10px;
+  }
+
+  .card .subtitle{
+    font-weight: 700;
+    color: white;
+    font-size: 2rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
 
 .homepage{
-    color: black;
     text-align: center;
+    color: black;
 }
 
 body{
@@ -115,6 +142,10 @@ body{
 
 h3{
     font-weight: normal;
+}
+
+.title{
+    color: #0D2970;
 }
 .change{
     color: blue;
