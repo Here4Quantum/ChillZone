@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Form - Hourglass</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="img/hourglass-icon.png" rel="icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="vendor/aos/aos.css" rel="stylesheet">
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/form.css" rel="stylesheet">
+
+    <!-- Stepper CSS - minified-->
+    <link href="https://cdn.jsdelivr.net/npm/bs-stepper/dist/css/bs-stepper.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  
+
+  <main id="main" class="form-content">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <!-- <div class="breadcrumbs" data-aos="fade-in">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <p>Est dolorum ut non facere possimus quibusdam eligendi voluptatem. Quia id aut similique quia voluptas sit quaerat debitis. Rerum omnis ipsam aperiam consequatur laboriosam nemo harum praesentium. </p>
+      </div>
+    </div> -->
+    <!-- End Breadcrumbs -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+
+      <div class="container">
+          
+      </div>
+    </section><!-- End Contact Section -->
+
+      
+    <div id="stepper1" class="bs-stepper form-internal">
+        <div class="bs-stepper-header">
+          <div class="step" data-target="#test-l-1">
+            <button type="button" class="btn step-trigger">
+              <span class="bs-stepper-circle">1</span>
+              <span class="bs-stepper-label">Information</span>
+            </button>
+          </div>
+          <div class="line"></div>
+          <div class="step" data-target="#test-l-2">
+            <button type="button" class="btn step-trigger">
+              <span class="bs-stepper-circle">2</span>
+              <span class="bs-stepper-label">Work</span>
+            </button>
+          </div>
+          <div class="line"></div>
+          <div class="step" data-target="#test-l-3">
+            <button type="button" class="btn step-trigger">
+              <span class="bs-stepper-circle">3</span>
+              <span class="bs-stepper-label">Sleep</span>
+            </button>
+          </div>
+          <div class="line"></div>
+          <div class="step" data-target="#test-l-4">
+            <button type="button" class="btn step-trigger">
+              <span class="bs-stepper-circle">4</span>
+              <span class="bs-stepper-label">Leisure</span>
+            </button>
+          </div>
+          <div class="line"></div>
+          <div class="step" data-target="#test-l-5">
+            <button type="button" class="btn step-trigger">
+              <span class="bs-stepper-circle">5</span>
+              <span class="bs-stepper-label">Mealtimes</span>
+            </button>
+          </div>
+          <div class="line"></div>
+          <div class="step" data-target="#test-l-6">
+            <button type="button" class="btn step-trigger">
+              <span class="bs-stepper-circle">6</span>
+              <span class="bs-stepper-label">Hobbies</span>
+            </button>
+          </div>
+        </div>
+        <div class="bs-stepper-content">
+          <div id="test-l-1" class="content">
+            <div class="col-md-6 form-group">
+                <h3>Enter Full Name: </h3>
+                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name (ie. John Doe)" required>
+              </div>
+              <div class="col-md-6 form-group mt-3 mt-md-0">
+                <h3>Enter Email Address: </h3>
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email (ie. johndoe@gmail.com)" required aria-placeholder="Eg. johndoe@gmail.com">
+              </div>
+            <button class="btn btn-primary" onclick="stepper1.next()">Next Step</button>
+          </div>
+          <div id="test-l-2" class="content">
+            <h3>What time do you start work?</h3>
+            <div class="form-group row">
+                <label for="example-time-input" class="col-2 col-form-label">Time</label>
+                <div class="col-10">
+                  <input class="form-control" type="time" value="09:00:00" id="startWork">
+                </div>
+              </div>
+
+              <h3>What time do you end work?</h3>
+            <div class="form-group row">
+                <label for="example-time-input" class="col-2 col-form-label">Time</label>
+                <div class="col-10">
+                  <input class="form-control" type="time" value="17:00:00" id="endWork">
+                </div>
+              </div>
+            <button class="btn btn-primary" onclick="stepper1.next()">Next Step</button>
+            <button class="btn btn-primary back" onclick="stepper1.previous()">Previous</button>
+          </div>
+          <div id="test-l-3" class="content">
+            <h3>What time do you want to go to sleep?</h3>
+            <div class="form-group row">
+                <label for="example-time-input" class="col-2 col-form-label">Time</label>
+                <div class="col-10">
+                  <input class="form-control" type="time" value="17:00:00" id="startSleep">
+                </div>
+              </div>
+            <h3>How many hours of sleep do you want?</h3>
+            <div class="form-group row">
+                <label for="example-time-input" class="col-2 col-form-label">Time</label>
+                <div class="col-10">
+                  <input class="form-control" type="number" value="8" id="amountSleep">
+                </div>
+              </div>
+            <button class="btn btn-primary" onclick="stepper1.next()">Next Step</button>
+            <button class="btn btn-primary back" onclick="stepper1.previous()">Previous</button>
+          </div>
+          <div id="test-l-4" class="content">
+            <h3>How many hours of freetime do you want per day?</h3>
+            <div class="form-group row">
+                <label for="example-time-input" class="col-2 col-form-label">Time</label>
+                <div class="col-10">
+                  <input class="form-control"  type="number" value="8"id="amountFreetime">
+                </div>
+              </div>
+            <h3>How many hours do you want for friends/family/relationships?</h3>
+            <div class="form-group row">
+                <label for="example-time-input" class="col-2 col-form-label">Time</label>
+                <div class="col-10">
+                  <input class="form-control" type="number" value="8" id="amountRelationshipTime">
+                </div>
+              </div>
+              <h3>What time are you usually free?</h3>
+              <div class="form-group row">
+                  <label for="example-time-input" class="col-2 col-form-label">Time</label>
+                  <div class="col-10">
+                    <input class="form-control" type="time" value="17:00:00" id="startFreetime">
+                  </div>
+                </div>
+            <button class="btn btn-primary" onclick="stepper1.next()">Next Step</button>
+            <button class="btn btn-primary back" onclick="stepper1.previous()">Previous</button>
+          </div>
+          <div id="test-l-5" class="content">
+            <h3>Enter breakfast time (optional)</h3>
+            <div class="form-group row">
+                <label for="example-time-input" class="col-2 col-form-label">Time</label>
+                <div class="col-10">
+                  <input class="form-control" type="time" value="17:00:00" id="breakfastTime">
+                </div>
+              </div>
+            <h3>Enter lunch time (optional)</h3>
+            <div class="form-group row">
+                <label for="example-time-input" class="col-2 col-form-label">Time</label>
+                <div class="col-10">
+                    <input class="form-control" type="time" value="17:00:00" id="lunchTime">
+                </div>
+              </div>
+              <h3>Enter dinner time (optional)</h3>
+              <div class="form-group row">
+                  <label for="example-time-input" class="col-2 col-form-label">Time</label>
+                  <div class="col-10">
+                    <input class="form-control" type="time" value="17:00:00" id="dinnerTime">
+                  </div>
+             </div>
+            <button class="btn btn-primary" onclick="stepper1.next()">Next Step</button>
+            <button class="btn btn-primary back" onclick="stepper1.previous()">Previous</button>
+          </div>
+          <div id="test-l-6" class="content">
+            <h3>How many hours do you want to spend per day?</h3>
+            <div class="form-group row">
+                <label for="example-time-input" class="col-2 col-form-label">Time</label>
+                <div class="col-10">
+                    <input class="form-control" type="number" value="8" id="amountHobby">
+                </div>
+              </div>
+            <h3>What time do you want to work on your hobby?</h3>
+            <div class="form-group row">
+                <label for="example-time-input" class="col-2 col-form-label">Time</label>
+                <div class="col-10">
+                    <input class="form-control" type="time" value="17:00:00" id="startHobby">
+                </div>
+              </div>
+            <button class="btn btn-primary" onclick="complete()">Complete!</button>
+            <button class="btn btn-primary back" type="submit" onclick="stepper1.previous()">Previous</button>
+          </div>
+        </div>
+        
+      </div>
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="custom-footer">
+
+    <div class="container d-md-flex py-4">
+
+      <div class="me-md-auto text-center text-md-start">
+        <div class="copyright">
+          &copy; Copyright <strong><span>Hourglass</span></strong>. All Rights Reserved
+        </div>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="vendor/aos/aos.js"></script>
+
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script type="text/javascript" src="vendor/stepper/stepper.min.js"></script>
+  <script src="vendor/php-email-form/validate.js"></script>
+  <script src="vendor/purecounter/purecounter.js"></script>
+  <script src="vendor/swiper/swiper-bundle.min.js"></script>
+
+   
+
+  <!-- Template Main JS File -->
+  <script src="js/main.js"></script>
+  <script src="js/form.js"></script>
+
+
+  <script>
+    var stepper1Node = document.querySelector('#stepper1')
+    var stepper1 = new Stepper(document.querySelector('#stepper1'))
+
+    stepper1Node.addEventListener('show.bs-stepper', function (event) {
+      console.warn('show.bs-stepper', event)
+    })
+    stepper1Node.addEventListener('shown.bs-stepper', function (event) {
+      console.warn('shown.bs-stepper', event)
+    })
+
+    var stepper2 = new Stepper(document.querySelector('#stepper2'), {
+      linear: false,
+      animation: true
+    })
+    var stepper3 = new Stepper(document.querySelector('#stepper3'), {
+      animation: true
+    })
+    var stepper4 = new Stepper(document.querySelector('#stepper4'))
+
+    function complete(){
+        postFormData();
+    }
+  </script>
+
+</body>
+
+</html>

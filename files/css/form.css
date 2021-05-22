@@ -1,0 +1,36 @@
+.form-content{
+    font-family: "Poppins", sans-serif !important;
+}
+
+.content{
+    margin: 20px;
+}
+
+.content input{
+        margin-bottom: 40px !important;
+}
+
+.btn{
+    float: right;
+}
+
+h3{
+    font-family: "Poppins", sans-serif !important;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.active .bs-stepper-circle{
+    background-color: rgb(95, 207, 127) !important;
+}
+
+.btn-primary{
+    background-color: rgb(68 136 87) !important;
+    border-color: rgb(68 136 87) !important;
+}
+
+.back{
+    margin-right: 23px;
+    background-color: rgb(128 204 149) !important;
+    border-color: rgb(128 204 149) !important;
+}
