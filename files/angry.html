@@ -2,13 +2,13 @@
 <html>
     <head>
         <link rel="stylesheet" href="stylesheets.css">
-        <script src="myscripts.js"></script>
+        <script src="js/myscripts.js"></script>
         <title>ChillZone | Angry</title>
     </head>
 
     <body>
         <div class = "Logo">
-            <img src = "Logo.JPG" alt = "Logo, name with tree image" style="width: 100px;">
+            <img src = "../images/Logo.JPG" alt = "Logo, name with tree image" style="width: 100px;">
         </div>
         <div class = "row">
             <div class = "column">
@@ -17,25 +17,25 @@
 
                     <p>Forest</p>
                     <audio controls autoplay>
-                        <source src="Forest.mp3" type="audio/mpeg">
+                        <source src="../sounds/Forest.mp3" type="audio/mpeg">
                         Your browser does not support this sound.
                     </audio>
 
                     <p>Beach</p>
                     <audio controls autoplay>
-                        <source src="Beach.mp3" type="audio/mpeg">
+                        <source src="../sounds/Beach.mp3" type="audio/mpeg">
                         Your browser does not support this sound.
                     </audio>
 
                     <p>Wind</p>
                     <audio controls autoplay>
-                        <source src="Wind.mp3" type="audio/mpeg">
+                        <source src="../sounds/Wind.mp3" type="audio/mpeg">
                         Your browser does not support this sound.
                     </audio>
 
                     <p>Rain</p>
                     <audio controls autoplay>
-                        <source src="Rain.mp3" type="audio/mpeg">
+                        <source src="../sounds/Rain.mp3" type="audio/mpeg">
                         Your browser does not support this sound.
                     </audio>
 
@@ -48,7 +48,7 @@
                     <h2>Watch this video to ease your mind</h2>
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/zpucCXdOSH8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
                     <p style="color: black;">Scan for an AR Heart</p>
-                    <img src = "Heart AR.png" alt = "QR code" style = "width: 50px;">
+                    <img src = "../images/Heart AR.png" alt = "QR code" style = "width: 50px;">
                 </div>
             </div>
 
@@ -64,10 +64,10 @@
 
         <div class = "change">
             <h3>Want to change your background? Click one of the images.</h3>
-            <input type="image" width = "200px" height = "200px" name = "sad" src = "sadimg.JPG" onclick="changesad()"/>
-            <input type="image" width = "200px" height = "200px" name = "happy" src = "happyimg.JPG" onclick="changehappy()"/>
-            <input type="image" width = "200px" height = "200px" name = "neutral" src = "neutralimg.JPG"  onclick="changeneutral()"/>
-            <input type="image" width = "200px" height = "200px" name = "neutral" src = "angryimg.JPG"  onclick="changeangry()"/>
+            <input type="image" width = "200px" height = "200px" name = "sad" src = "../images/sadimg.JPG" onclick="changesad()"/>
+            <input type="image" width = "200px" height = "200px" name = "happy" src = "../images/happyimg.JPG" onclick="changehappy()"/>
+            <input type="image" width = "200px" height = "200px" name = "neutral" src = "../images/neutralimg.JPG"  onclick="changeneutral()"/>
+            <input type="image" width = "200px" height = "200px" name = "neutral" src = "../images/angry.JPG"  onclick="changeangry()"/>
             <h3>Change Emotion</h3>
             <a href = "happy.html"><button class = "happy">Happy</button></a>
             <a href = "sad.html"><button class = "sad">Sad</button></a>
