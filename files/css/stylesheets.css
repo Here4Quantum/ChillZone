@@ -11,10 +11,42 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    padding: 20px;
   }
   
   li {
     float: left;
+  }
+
+  .nav-link-ltr::before {
+    width: 0%;
+    bottom: 10px;
+  }
+  
+  .nav-link-ltr:hover::before {
+    width: 100%;
+  }
+
+  .nav-link {
+    font-size: 14px;
+    text-decoration: none;
+    padding: 13px 0px;
+    margin: 0px 20px;
+    display: inline-block;
+    position: relative;
+    opacity: 0.75;
+  }
+  
+  .nav-link:hover {
+    opacity: 1;
+  }
+  
+  .nav-link::before {
+    transition: 300ms;
+    height: 3px;
+    content: "";
+    position: absolute;
+    background-color: #0255F7;
   }
   
   li a {
@@ -35,23 +67,50 @@ ul {
     height: 1.5rem;
   }
 
+    /* Cards Code */
+
   .cards .card {
+    transition: all .3s;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
     padding: 16px;
     text-align: center;
     width: 20%;
+    border-radius: 10px;
     background-color: #f1f1f1;
   }
 
   .cards{
       display: flex;
       margin: auto;
+      margin-top: 3rem;
       justify-content: space-around;
   }
 
   .card .emoji{
       font-size: 5rem;
       margin: 10px;
+  }
+
+  .card:hover{
+      cursor: pointer;
+      transform: scale(1.05);
+      box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  }
+
+  .orange{
+    background: linear-gradient(148.8deg, rgba(247, 134, 1, 0.72) 18.69%, rgba(244, 220, 4, 0.54) 95.21%);
+  }
+
+  .blue{
+    background: linear-gradient(148.62deg, #0155F7 5.38%, rgba(1, 144, 247, 0.71) 100%);
+  }
+
+  .green{
+    background: linear-gradient(148.86deg, #3DBF1D 3.45%, rgba(187, 235, 51, 0.75) 100%);
+  }
+
+  .red{
+    background: linear-gradient(148.14deg, rgba(247, 1, 1, 0.71) 4.39%, rgba(247, 134, 1, 0.41) 100%);
   }
 
   .card .subtitle{
@@ -66,6 +125,23 @@ ul {
 .homepage{
     text-align: center;
     color: black;
+}
+
+.exam-button{
+    color: #FFFFFF;
+    background: #0155F7;
+    border-radius: 10px;
+    transition: background 1s;
+    height: 3rem;
+    width: 15rem;
+    border: none;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.exam-button:hover{
+    cursor: pointer;
+    background: #0a41af;
 }
 
 body{
@@ -142,6 +218,7 @@ body{
 
 h3{
     font-weight: normal;
+    margin-top: 3rem;
 }
 
 .title{
