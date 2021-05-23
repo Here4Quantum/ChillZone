@@ -1,15 +1,21 @@
 <!Doctype html>
 <html>
     <head>
-        <link rel="stylesheet" href="stylesheets.css">
+        <link rel="stylesheet" href="css/stylesheets.css">
+        <link rel="stylesheet" href="css/home.css">
         <script src="js/myscripts.js"></script>
         <title>ChillZone | Angry</title>
     </head>
 
     <body>
-        <div class = "Logo">
-            <img src = "../images/Logo.JPG" alt = "Logo, name with tree image" style="width: 100px;">
-        </div>
+        <ul style="background-color: white;">
+            <li style="float:left"><a class="banner" href="../index.html">ChillZone</a></li>
+            <div style="float: right;">
+                <li><a href="about.html" class="nav-link-ltr nav-link">About</a></li>
+                <li><a href="resources.html" class="nav-link-ltr nav-link">Resources</a></li>
+                <li><a href="learn.html" class="nav-link-ltr nav-link">Learn More</a></li>
+            </div>
+        </ul>
         <div class = "row">
             <div class = "column">
                 <div class = "divide">
@@ -17,7 +23,7 @@
 
                     <p>Forest</p>
                     <audio controls autoplay>
-                        <source src="../sounds/Forest.mp3" type="audio/mpeg">
+                        <source src="../sounds/Beach.mp3" type="audio/mpeg">
                         Your browser does not support this sound.
                     </audio>
 
@@ -48,7 +54,7 @@
                     <h2>Watch this video to ease your mind</h2>
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/zpucCXdOSH8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
                     <p style="color: black;">Scan for an AR Heart</p>
-                    <img src = "../images/Heart AR.png" alt = "QR code" style = "width: 50px;">
+                    <img src = "../images/Heart AR.png" alt = "QR code" style = "width: 100px;">
                 </div>
             </div>
 
@@ -62,30 +68,7 @@
 
         </div>
 
-        <div class = "change">
-            <h3>Want to change your background? Click one of the images.</h3>
-            <input type="image" width = "200px" height = "200px" name = "sad" src = "../images/sadimg.JPG" onclick="changesad()"/>
-            <input type="image" width = "200px" height = "200px" name = "happy" src = "../images/happyimg.JPG" onclick="changehappy()"/>
-            <input type="image" width = "200px" height = "200px" name = "neutral" src = "../images/neutralimg.JPG"  onclick="changeneutral()"/>
-            <input type="image" width = "200px" height = "200px" name = "neutral" src = "../images/angry.JPG"  onclick="changeangry()"/>
-            <h3>Change Emotion</h3>
-            <a href = "happy.html"><button class = "happy">Happy</button></a>
-            <a href = "sad.html"><button class = "sad">Sad</button></a>
-            <a href = "neutral.html"><button class = "neutral">Neutral</button></a>
-           
-
-        </div>
         
-
-        <style>
-            body{
-                background-image: url("https://media.giphy.com/media/IuVFGSQZTd6TK/giphy.gif");
-                background-size: cover;
-                height: 100vh;
-                padding:0;
-                margin:0;
-            }
-        </style>
 
     </body>
 
