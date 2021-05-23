@@ -1,0 +1,8 @@
+body{
+    color: red !important;
+    height: 100%;
+    background-size: cover;
+    background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(245, 246, 252, 0.52)),
+    url('https://images.unsplash.com/photo-1418065460487-3e41a6c84dc5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80');
+}

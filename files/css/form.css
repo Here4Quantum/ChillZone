@@ -21,16 +21,16 @@ h3{
 }
 
 .active .bs-stepper-circle{
-    background-color: rgb(95, 207, 127) !important;
+    background-color: #5990f7 !important;
 }
 
 .btn-primary{
-    background-color: rgb(68 136 87) !important;
-    border-color: rgb(68 136 87) !important;
+    background-color: #0255f7 !important;
+    border-color: #0255f7 !important;
 }
 
 .back{
     margin-right: 23px;
-    background-color: rgb(128 204 149) !important;
-    border-color: rgb(128 204 149) !important;
+    background-color: #6ab3fc !important;
+    border-color: #6ab3fc !important;
 }
