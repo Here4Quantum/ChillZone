@@ -1,6 +1,9 @@
 # ChillZone 🧊
 A new way to chill no matter how you feel.
 
+Project Link: 
+[https://here4quantum.github.io/ChillZone/](https://here4quantum.github.io/ChillZone/)
+
 #### 🧠 Inspiration
 
 Previously one of our team members submitted a solo project called ChillZone to a hackathon a few weeks. As a team, we were inspired by our daily lives especially with exams soon approaching, we noticed a decline in mental health both with us and with our peers. Hence, why we decided to upgrade ChillZone to help students deal with the pressure they face and improve their exam stress-focused mental health.
