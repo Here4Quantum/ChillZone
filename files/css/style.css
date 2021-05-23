@@ -8,12 +8,12 @@ body {
   }
   
   a {
-    color: #5fcf80;
+    color: #3779f2;
     text-decoration: none;
   }
   
   a:hover {
-    color: #86db9f;
+    color: white;
     text-decoration: none;
   }
   
@@ -31,7 +31,7 @@ body {
     right: 15px;
     bottom: 15px;
     z-index: 996;
-    background: #5fcf80;
+    background: #3779f2;
     width: 40px;
     height: 40px;
     border-radius: 50px;
@@ -73,7 +73,7 @@ body {
     position: fixed;
     top: calc(50% - 30px);
     left: calc(50% - 30px);
-    border: 6px solid #5fcf80;
+    border: 6px solid #3779f2;
     border-top-color: #fff;
     border-bottom-color: #fff;
     border-radius: 50%;
@@ -133,7 +133,7 @@ body {
   }
   
   #header .logo a {
-    color: #5fcf80;
+    color: #3779f2;
   }
   
   #header .logo img {
@@ -145,7 +145,7 @@ body {
   */
   .get-started-btn {
     margin-left: 22px;
-    background: #5fcf80;
+    background: #3779f2;
     color: #fff;
     border-radius: 50px;
     padding: 8px 25px;
@@ -209,7 +209,7 @@ body {
   }
   
   .navbar a:hover, .navbar .active, .navbar li:hover > a {
-    color: #5fcf80;
+    color: #3779f2;
   }
   
   .navbar .dropdown ul {
@@ -244,7 +244,7 @@ body {
   }
   
   .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-    color: #5fcf80;
+    color: #3779f2;
   }
   
   .navbar .dropdown:hover > ul {
@@ -339,7 +339,7 @@ body {
   }
   
   .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-    color: #5fcf80;
+    color: #3779f2;
   }
   
   .navbar-mobile .getstarted {
@@ -371,7 +371,7 @@ body {
   }
   
   .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-    color: #5fcf80;
+    color: #3779f2;
   }
   
   .navbar-mobile .dropdown > .dropdown-active {
@@ -439,8 +439,8 @@ body {
   }
   
   #hero .btn-get-started:hover {
-    background: #5fcf80;
-    border: 2px solid #5fcf80;
+    background: #3779f2;
+    border: 2px solid #3779f2;
   }
   
   @media (min-width: 1024px) {
@@ -513,7 +513,7 @@ body {
   .breadcrumbs {
     margin-top: 73px;
     text-align: center;
-    background: #5fcf80;
+    background: #3779f2;
     padding: 30px 0;
     color: #fff;
   }
@@ -554,11 +554,11 @@ body {
   .about .content ul i {
     font-size: 20px;
     padding-right: 4px;
-    color: #5fcf80;
+    color: #3779f2;
   }
   
   .about .content .learn-more-btn {
-    background: #5fcf80;
+    background: #3779f2;
     color: #fff;
     border-radius: 50px;
     padding: 8px 25px 9px 25px;
@@ -590,7 +590,7 @@ body {
   .counts .counters span {
     font-size: 48px;
     display: block;
-    color: #5fcf80;
+    color: #3779f2;
     font-weight: 700;
   }
   
@@ -608,7 +608,7 @@ body {
   --------------------------------------------------------------*/
   .why-us .content {
     padding: 30px;
-    background: #5fcf80;
+    background: #3779f2;
     border-radius: 4px;
     color: #fff;
   }
@@ -637,7 +637,7 @@ body {
   }
   
   .why-us .content .more-btn:hover {
-    color: #5fcf80;
+    color: #3779f2;
     background: #fff;
   }
   
@@ -652,7 +652,7 @@ body {
   .why-us .icon-boxes .icon-box i {
     font-size: 32px;
     padding: 18px;
-    color: #5fcf80;
+    color: #3779f2;
     margin-bottom: 30px;
     background: #ecf9f0;
     border-radius: 50px;
@@ -704,11 +704,11 @@ body {
   }
   
   .features .icon-box:hover {
-    border-color: #5fcf80;
+    border-color: #3779f2;
   }
   
   .features .icon-box:hover h3 a {
-    color: #5fcf80;
+    color: #3779f2;
   }
   
   /*--------------------------------------------------------------
@@ -734,7 +734,7 @@ body {
   }
   
   .courses .course-content h3 a:hover {
-    color: #5fcf80;
+    color: #3779f2;
   }
   
   .courses .course-content p {
@@ -744,7 +744,7 @@ body {
   
   .courses .course-content h4 {
     font-size: 14px;
-    background: #5fcf80;
+    background: #3779f2;
     padding: 7px 14px;
     color: #fff;
     margin: 0;
@@ -826,7 +826,7 @@ body {
   }
   
   .trainers .member .social a:hover {
-    color: #5fcf80;
+    color: #3779f2;
   }
   
   .trainers .member .social i {
@@ -905,11 +905,11 @@ body {
     height: 12px;
     background-color: #fff;
     opacity: 1;
-    border: 1px solid #5fcf80;
+    border: 1px solid #3779f2;
   }
   
   .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-    background-color: #5fcf80;
+    background-color: #3779f2;
   }
   
   @media (max-width: 767px) {
@@ -954,7 +954,7 @@ body {
     display: block;
     width: 60px;
     height: 1px;
-    background: #5fcf80;
+    background: #3779f2;
     bottom: 0;
     left: 0;
   }
@@ -1005,12 +1005,12 @@ body {
   }
   
   .cource-details-tabs .nav-link:hover {
-    color: #5fcf80;
+    color: #3779f2;
   }
   
   .cource-details-tabs .nav-link.active {
-    color: #5fcf80;
-    border-color: #5fcf80;
+    color: #3779f2;
+    border-color: #3779f2;
   }
   
   .cource-details-tabs .tab-pane.active {
@@ -1040,7 +1040,7 @@ body {
     }
     .cource-details-tabs .nav-link.active {
       color: #fff;
-      background: #5fcf80;
+      background: #3779f2;
     }
   }
   
@@ -1101,7 +1101,7 @@ body {
   }
   
   .events .read-more a:hover {
-    color: #5fcf80;
+    color: #3779f2;
   }
   
   .events .card:hover img {
@@ -1109,11 +1109,11 @@ body {
   }
   
   .events .card:hover .card-body {
-    border-color: #5fcf80;
+    border-color: #3779f2;
   }
   
   .events .card:hover .card-body .card-title a {
-    color: #5fcf80;
+    color: #3779f2;
   }
   
   /*--------------------------------------------------------------
@@ -1141,7 +1141,7 @@ body {
   
   .pricing h4 {
     font-size: 36px;
-    color: #5fcf80;
+    color: #3779f2;
     font-weight: 600;
     font-family: "Poppins", sans-serif;
     margin-bottom: 20px;
@@ -1173,7 +1173,7 @@ body {
   }
   
   .pricing ul i {
-    color: #5fcf80;
+    color: #3779f2;
     font-size: 18px;
     padding-right: 4px;
   }
@@ -1191,7 +1191,7 @@ body {
   }
   
   .pricing .btn-buy {
-    background: #5fcf80;
+    background: #3779f2;
     display: inline-block;
     padding: 8px 35px;
     border-radius: 50px;
@@ -1210,7 +1210,7 @@ body {
   
   .pricing .featured h3 {
     color: #fff;
-    background: #5fcf80;
+    background: #3779f2;
   }
   
   .pricing .advanced {
@@ -1222,7 +1222,7 @@ body {
     z-index: 1;
     font-size: 14px;
     padding: 1px 0 3px 0;
-    background: #5fcf80;
+    background: #3779f2;
     color: #fff;
   }
   
@@ -1241,7 +1241,7 @@ body {
   
   .contact .info i {
     font-size: 20px;
-    color: #5fcf80;
+    color: #3779f2;
     float: left;
     width: 44px;
     height: 44px;
@@ -1273,7 +1273,7 @@ body {
   }
   
   .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-    background: #5fcf80;
+    background: #3779f2;
     color: #fff;
   }
   
@@ -1335,7 +1335,7 @@ body {
   }
   
   .contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
-    border-color: #5fcf80;
+    border-color: #3779f2;
   }
   
   .contact .php-email-form input {
@@ -1347,7 +1347,7 @@ body {
   }
   
   .contact .php-email-form button[type="submit"] {
-    background: #5fcf80;
+    background: #3779f2;
     border: 0;
     padding: 10px 35px;
     color: #fff;
@@ -1437,7 +1437,7 @@ body {
   
   #footer .footer-top .footer-links ul i {
     padding-right: 2px;
-    color: #5fcf80;
+    color: #3779f2;
     font-size: 18px;
     line-height: 1;
   }
@@ -1461,7 +1461,7 @@ body {
   
   #footer .footer-top .footer-links ul a:hover {
     text-decoration: none;
-    color: #5fcf80;
+    color: #3779f2;
   }
   
   #footer .footer-newsletter {
@@ -1501,7 +1501,7 @@ body {
     background: none;
     font-size: 16px;
     padding: 0 20px 2px 20px;
-    background: #5fcf80;
+    background: #3779f2;
     color: #fff;
     transition: 0.3s;
     border-radius: 50px;
@@ -1523,13 +1523,13 @@ body {
   }
   
   #footer .credits a:hover {
-    color: #5fcf80;
+    color: #3779f2;
   }
   
   #footer .social-links a {
     font-size: 18px;
     display: inline-block;
-    background: #5fcf80;
+    background: #3779f2;
     color: #fff;
     line-height: 1;
     padding: 8px 0;
